@@ -1,3 +1,77 @@
 ---
 title: "Resultados"
 ---
+Aqui estão os resultados da nossa análise estatística sobre o projeto MindMove:
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# 1. Carregar pacotes
+library(tidyverse)
+library(here)
+library(janitor)
+library(gtsummary)
+library(gt)
+
+# 2. Ler os dados
+dados <- read_csv(here("data", "raw", "mindmove.csv"))
+
+# 3. Criar a Tabela 1
+dados |>
+  select(grupo, idade, sexo, phq9_baseline, gad7_baseline) |>
+  tbl_summary(
+    by = grupo,
+    type = list(
+      phq9_baseline ~ "continuous",
+      gad7_baseline ~ "continuous"
+    ),
+    label = list(
+      idade ~ "Idade (anos)",
+      sexo ~ "Sexo",
+      phq9_baseline ~ "Depressão basal (PHQ-9)",
+      gad7_baseline ~ "Ansiedade basal (GAD-7)"
+    ),
+    # Controlar a estatística para apresentar Média (Desvio Padrão)
+    statistic = list(
+      all_continuous() ~ "{mean} ({sd})",
+      all_categorical() ~ "{n} ({p}%)"
+    ),
+    digits = all_continuous() ~ 1
+  ) |>
+  add_overall() |>
+  add_p()
+
+# 4. Gráfico do outcome primário
+figura_outcome <- ggplot(
+  data = dados |> filter(!is.na(phq9_semana8)), 
+  aes(x = grupo, y = phq9_semana8, colour = grupo)
+) +
+  # Camada 1
+  geom_boxplot(outlier.shape = NA, width = 0.4) +
+  # Camada 2
+  geom_jitter(width = 0.12, alpha = 0.7, size = 2.5) +
+  # Camada 3
+  scale_colour_manual(
+    values = c("intervencao" = "#2C3E50", "controlo" = "#7A9B9E")
+  ) +
+  # Camada 4
+  theme_minimal() +
+  # Camada 5
+  labs(
+    x = "Grupo",
+    y = "Depressão às 8 semanas (PHQ-9)",
+    title = "MindMove: Outcome Primário"
+  )
+
+figura_outcome
+
+ggsave(
+  filename = here("outputs", "figuras", "mindmove_outcome.png"),
+  plot = figura_outcome,
+  width = 6,
+  height = 4,
+  dpi = 150
+)
+```
+

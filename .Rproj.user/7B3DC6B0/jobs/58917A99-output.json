@@ -1,5 +1,0 @@
-[1,"==> quarto preview resultados.qmd --to html --no-watch-inputs --no-browse\n\n"]
-[1,"pandoc \n  to: html\n  output-file: resultados.html\n  standalone: true\n  title-prefix: Ensaio MindMove\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  engines:\n    - path: C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\share\\extension-subtrees\\julia-engine\\_extensions\\julia-engine\\julia-engine.js\n  theme: cosmo\n  title: Resultados\n  \n"]
-[1,"Output created: docs\\resultados.html\n\nPreparing to preview\n"]
-[1,"\nWatching files for changes\nBrowse at http://localhost:5837/resultados.html\nListening on http://127.0.0.1:5837/\n"]
-[1,"GET: /resultados.html\n"]
