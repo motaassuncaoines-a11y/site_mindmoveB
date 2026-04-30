@@ -400,7 +400,7 @@ Para a ansiedade (GAD-7) e qualidade do sono (PSQI), utilizaremos uma ANOVA de M
 A adesão (*engagement*) será analisada de forma descritiva através da média e desvio-padrão do número de acessos semanais à aplicação.
 A taxa de eventos adversos (ex: agravamento severo de sintomas) será comparada entre grupos através do Teste Exato de Fisher.
 
----
+***
 ## 5. Ética e Disseminação
 
 ### 5.1 Aprovação Ética

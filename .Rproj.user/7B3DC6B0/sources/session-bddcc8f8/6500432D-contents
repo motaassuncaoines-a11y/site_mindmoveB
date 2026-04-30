@@ -2,3 +2,16 @@
 title: "Materiais"
 ---
 
+## A Aplicação MindMove
+
+Para ilustrar a intervenção digital proposta no nosso ensaio clínico, desenvolvemos um protótipo de alta fidelidade da aplicação móvel **MindMove**. O design foi pensado especificamente para reduzir a carga cognitiva da nossa população-alvo (estudantes universitários com sintomas depressivos ligeiros a moderados).
+
+O fluxo principal demonstrado no protótipo foca-se em duas funcionalidades-chave da nossa intervenção:
+
+* **Diário de Humor (Mood Tracking):** Registo rápido e empático do estado emocional através de emojis logo no ecrã inicial.
+* **Ativação Comportamental:** Registo diário de minutos de caminhada (com feedback positivo de sucesso), promovendo a ação e quebrando o ciclo de inatividade.
+* **UX / Prevenção de Erros:** O protótipo inclui validação de dados visuais (avisos a vermelho) caso o participante tente avançar sem preencher os minutos, demonstrando boas práticas de usabilidade em saúde digital.
+
+Ao entrar no link abaixo pode navegar interativamente pelos ecrãs da nossa aplicação:
+https://www.figma.com/design/Lc41uxhswBDwFAH3voAbmz/MindMove?node-id=0-1&t=TjEJvTyRIHkw8XFW-1
+*(Nota: Para testar o fluxo de erro, tente clicar em "Guardar atividade" sem inserir nenhum valor no campo de texto).*
