@@ -1,7 +1,28 @@
 ---
 title: "Website MindMove"
 ---
+---
+title: "MindMove: Ensaio Clínico"
+---
 
-This is a Quarto website.
+Bem-vindo(a) ao portal oficial do ensaio clínico **MindMove**.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Este website foi desenvolvido no âmbito da unidade curricular de Ferramentas de Produtividade, com o objetivo de apresentar de forma integrada e reprodutível o protocolo, os materiais e os resultados preliminares do nosso estudo.
+
+## Sobre o Estudo
+
+A prevalência de sintomas depressivos e de ansiedade entre estudantes universitários tem vindo a aumentar. No entanto, o estigma e as barreiras de acesso dificultam a procura de ajuda presencial. 
+
+O projeto **MindMove** propõe a avaliação de uma intervenção digital móvel baseada nos princípios da Terapia Cognitivo-Comportamental (dCBT) e na Ativação Comportamental. O nosso ensaio clínico randomizado (RCT) visa testar a eficácia desta aplicação na redução de sintomas depressivos (PHQ-9) em estudantes com sintomatologia ligeira a moderada, comparando-a com uma lista de espera (controlo ativo com material educativo).
+
+## O que pode encontrar neste site?
+
+Utilize a barra de navegação no topo para explorar os diferentes componentes do nosso projeto:
+
+* 📄 **[Protocolo](protocolo.qmd):** O desenho completo do estudo, critérios de elegibilidade, intervenções e *outcomes*, redigido de acordo com as diretrizes internacionais SPIRIT.
+* 📱 **[Materiais](materiais.qmd):** Acesso interativo ao protótipo de alta fidelidade da aplicação MindMove desenvolvido no Figma.
+* 📊 **[Resultados](resultados.qmd):** Análise estatística reprodutível dos dados basais e do *outcome* primário, gerada dinamicamente através do R e `gtsummary`.
+* 👥 **[Equipa](equipa.qmd):** A equipa de investigação responsável pelo desenvolvimento deste protocolo.
+
+---
+*“Pequenos passos, grandes mudanças.”*
