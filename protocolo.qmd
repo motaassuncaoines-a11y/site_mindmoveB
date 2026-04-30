@@ -147,7 +147,7 @@ Tabela 1: Cronograma do ensaio clínico MindMove
 | Fase do Estudo | Duração | Descrição das Atividades |
 |:---|:--:|:--:|
 | **Recrutamento** | 4 semanas | Divulgação nas faculdades, triagem de elegebilidade e assinatura do consentimento informado |
-| **Baseline** | 1 semana | Avaliação inicial (Questionários GAD-7, PSQI, colheita de sangue) e randomização |
+| **Baseline** | 1 semana | Avaliação inicial (Questionários GAD-7, PSQI) e randomização |
 | **Intervenção** | 8 semanas | Exercício aeróbico supervisionado (Grupo E) vs. Controlo sedentário (Grupo C) |
 | **Follow-up** | 8 semanas | Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia |
 
@@ -155,10 +155,10 @@ O diagrama CONSORT será utilizado como ferramenta de reporte deste
 estudo, sendo preenchido na sua totalidade após a conclusão do ensaio
 clínico (Figura 1).
 
-![[consort.jpeg]]
+![](consort.png)
 
 Figura 1: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de
-recrutamento, elegibilidade, randomização, follow-up e análise dos
+recrut)amento, elegibilidade, randomização, follow-up e análise dos
 participantes ao longo do estudo.
 
 ### 2.2 População do Estudo
@@ -274,7 +274,7 @@ Funcionalidades principais:
 - A frequência de uso esperada é de uma utilização diária,
   preferencialmente ao final do dia.
 
-![[sequencia.png]]
+![](sequencia.png)
 
   Figura 2: Diagrama de atividade que representa o percurso do
   participante ao longo do ensaio clínico, desde o recrutamento e
@@ -304,7 +304,7 @@ O suporte será garantido através de um canal de chat dentro da própria
 aplicação e um endereço de e-mail dedicado à equipa de investigação, com
 tempo de resposta garantido de 24 horas úteis.
 
-![[diagrama_caso_uso.png]]
+![](diagrama_caso_uso.png)
 
 Figura 3: Diagrama de sequência com o processo de registo de humor na
 apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
@@ -316,7 +316,7 @@ Os participantes mantêm o seu cuidado médico habitual, incluindo
 consultas de rotina com o seu médico assistente e qualquer medicação
 crónica não psicotrópica previamente estabelecida.
 
-![[atividade_app.png|697]]
+![](atividade_app.png|697)
 
 Figura 4: Diagrama de casos de uso da aplicação MindMove, com as
 principais funcionalidades disponibilizadas ao utilizador.
@@ -356,7 +356,7 @@ Participantes serão retirados do estudo se:
     credenciais de acesso à aplicação com terceiros ou início de nova
     terapia psicofarmacológica durante o estudo.
 
-![[atividade_ participante.png]]
+![](atividade_ participante.png)
 **Figura 5:** Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico, desde o recrutamento e avaliação de elegibilidade até à randomização, follow-up e análise final.
 
 ---
