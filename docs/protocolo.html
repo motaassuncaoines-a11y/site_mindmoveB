@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Protocolo do Estudo – Ensaio MindMove</title>
+<title>Protocolo de Ensaio Clínico – Ensaio MindMove</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -123,15 +152,53 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#título-do-estudo" id="toc-título-do-estudo" class="nav-link active" data-scroll-target="#título-do-estudo">Título do Estudo</a></li>
+  <li><a href="#título-abreviado" id="toc-título-abreviado" class="nav-link" data-scroll-target="#título-abreviado">Título Abreviado</a></li>
+  <li><a href="#autores-e-afiliações" id="toc-autores-e-afiliações" class="nav-link" data-scroll-target="#autores-e-afiliações">Autores e Afiliações</a></li>
+  <li><a href="#identificação-do-ensaio" id="toc-identificação-do-ensaio" class="nav-link" data-scroll-target="#identificação-do-ensaio">Identificação do Ensaio</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução">1. Introdução</a>
+  <ul class="collapse">
+  <li><a href="#racional" id="toc-racional" class="nav-link" data-scroll-target="#racional">1.1 Racional</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link" data-scroll-target="#objetivos">1.2 Objetivos</a></li>
+  </ul></li>
+  <li><a href="#métodos" id="toc-métodos" class="nav-link" data-scroll-target="#métodos">2. Métodos</a>
+  <ul class="collapse">
+  <li><a href="#desenho-do-estudo" id="toc-desenho-do-estudo" class="nav-link" data-scroll-target="#desenho-do-estudo">2.1 Desenho do Estudo</a></li>
+  <li><a href="#população-do-estudo" id="toc-população-do-estudo" class="nav-link" data-scroll-target="#população-do-estudo">2.2 População do Estudo</a></li>
+  <li><a href="#intervenções" id="toc-intervenções" class="nav-link" data-scroll-target="#intervenções">2.3 Intervenções</a></li>
+  </ul></li>
+  <li><a href="#avaliações-e-outcomes" id="toc-avaliações-e-outcomes" class="nav-link" data-scroll-target="#avaliações-e-outcomes">3. Avaliações e Outcomes</a>
+  <ul class="collapse">
+  <li><a href="#outcome-primário" id="toc-outcome-primário" class="nav-link" data-scroll-target="#outcome-primário">3.1 Outcome Primário</a></li>
+  <li><a href="#outcomes-secundários" id="toc-outcomes-secundários" class="nav-link" data-scroll-target="#outcomes-secundários">3.2 Outcomes Secundários</a></li>
+  </ul></li>
+  <li><a href="#análise-estatística" id="toc-análise-estatística" class="nav-link" data-scroll-target="#análise-estatística">4. Análise Estatística</a>
+  <ul class="collapse">
+  <li><a href="#análise-dos-outcomes-secundários" id="toc-análise-dos-outcomes-secundários" class="nav-link" data-scroll-target="#análise-dos-outcomes-secundários">Análise dos Outcomes Secundários</a></li>
+  </ul></li>
+  <li><a href="#ética-e-disseminação" id="toc-ética-e-disseminação" class="nav-link" data-scroll-target="#ética-e-disseminação">5. Ética e Disseminação</a>
+  <ul class="collapse">
+  <li><a href="#aprovação-ética" id="toc-aprovação-ética" class="nav-link" data-scroll-target="#aprovação-ética">5.1 Aprovação Ética</a></li>
+  <li><a href="#consentimento-informado" id="toc-consentimento-informado" class="nav-link" data-scroll-target="#consentimento-informado">5.2 Consentimento Informado</a></li>
+  <li><a href="#confidencialidade-e-proteção-de-dados" id="toc-confidencialidade-e-proteção-de-dados" class="nav-link" data-scroll-target="#confidencialidade-e-proteção-de-dados">5.3 Confidencialidade e Proteção de Dados</a></li>
+  <li><a href="#política-de-disseminação" id="toc-política-de-disseminação" class="nav-link" data-scroll-target="#política-de-disseminação">5.4 Política de Disseminação</a></li>
+  <li><a href="#prompt-usado-na-ia" id="toc-prompt-usado-na-ia" class="nav-link" data-scroll-target="#prompt-usado-na-ia">6.1 Prompt usado na IA</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">6.2 Referências</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Protocolo do Estudo</h1>
+<h1 class="title">Protocolo de Ensaio Clínico</h1>
 </div>
 
 
@@ -148,8 +215,295 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="título-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="título-do-estudo">Título do Estudo</h3>
+<p>Eficácia da Aplicação Móvel “MindMove” baseada em Terapia Cognitivo-Comportamental Digital versus Lista de Espera com Material Educativo na Redução de Sintomas Depressivos, Ansiedade e Melhoria da Qualidade do Sono em Estudantes Universitários com Sintomatologia Ligeira a Moderada: Um Ensaio Clínico Randomizado, Controlado e Paralelo</p>
+</section>
+<section id="título-abreviado" class="level3">
+<h3 class="anchored" data-anchor-id="título-abreviado">Título Abreviado</h3>
+<p>MindMove: Eficácia dCBT em Estudantes Universitários</p>
+</section>
+<section id="autores-e-afiliações" class="level3">
+<h3 class="anchored" data-anchor-id="autores-e-afiliações">Autores e Afiliações</h3>
+<p><strong>Investigadores Principais:</strong></p>
+<ul>
+<li><p>Maria João Marques Roso, Faculdade de Medicina da Universidade do Porto</p></li>
+<li><p>Inês Mota Assunção, Faculdade de Medicina da Universidade do Porto</p></li>
+<li><p>Maria João Lopes Roldão, Faculdade de Medicina da Universidade do Porto</p></li>
+<li><p>Inês Duque Formoso, Faculdade de Medicina da Universidade do Porto</p></li>
+</ul>
+<p><strong>Instituição:</strong> Faculdade de Medicina da Universidade do Porto</p>
+<p><strong>Contacto:</strong> Email: up202507727@up.pt</p>
+</section>
+<section id="identificação-do-ensaio" class="level3">
+<h3 class="anchored" data-anchor-id="identificação-do-ensaio">Identificação do Ensaio</h3>
+<p><strong>Tipo de estudo:</strong> Ensaio clínico randomizado, controlado, paralelo</p>
+<p><strong>Data de início prevista:</strong> 06/03/26</p>
+<p><strong>Data de conclusão prevista:</strong> 18/04/26</p>
+<hr>
+</section>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">1. Introdução</h2>
+<section id="racional" class="level3">
+<h3 class="anchored" data-anchor-id="racional">1.1 Racional</h3>
+<p>A saúde mental dos estudantes universitários constitui um desafio de saúde pública de magnitude crescente. A transição para a vida académica, caracterizada por pressões académicas, financeiras e sociais, expõe esta população a um stress acumulado que resulta numa prevalência elevada de sintomatologia depressiva ligeira a moderada. Este período representa uma fase de vulnerabilidade crítica onde, caso não seja intervencionado precocemente, o sofrimento emocional pode comprometer o rendimento académico e progredir para quadros de depressão maior. [1]</p>
+<p>Atualmente, o acesso aos cuidados convencionais de saúde mental enfrenta limitações estruturais severas. Nos contextos universitários, os serviços de psicologia debatem-se com listas de espera extensas e horários rígidos que dificultam a procura de ajuda. Adicionalmente, o estigma associado ao apoio presencial atua como uma barreira psicológica, levando a que muitos estudantes adiem a procura de auxílio até que os sintomas se tornem incapacitantes, perdendo-se a janela de oportunidade para uma intervenção mais eficaz. [2]</p>
+<p>A evidência científica recente tem demonstrado que as intervenções digitais, particularmente a terapia cognitivo-comportamental digital (dCBT), são ferramentas eficazes, escaláveis e desestigmatizantes para a gestão de sintomas depressivos e ansiosos. Estas soluções permitem alcançar uma população vasta que, de outra forma, permaneceria sem suporte profissional. [3]</p>
+<p>Este estudo pretende preencher uma lacuna na literatura ao avaliar o impacto de uma solução integrada, a aplicação “MindMove”. Ao combinar módulos de dCBT com ferramentas de ativação comportamental, diário de humor, monitorização de sono e sugestões de atividade física, o “MindMove” propõe uma abordagem holística e personalizada, desenhada especificamente para os hábitos e necessidades da população estudantil.</p>
+<p>A escolha da lista de espera com material educativo como comparador é eticamente justificada. Este desenho assegura que o grupo controlo não é privado de suporte informativo, mantendo-se o acesso a recursos básicos de saúde mental, e garante, simultaneamente, que todos os participantes beneficiem do acesso à aplicação após a conclusão do ensaio.</p>
+<p>A relevância clínica deste ensaio reside no seu potencial de validação como estratégia de prevenção secundária. Espera-se que a intervenção reduza a carga de sintomas depressivos, promovendo a autonomia do estudante na gestão do seu bem-estar e oferecendo às instituições de ensino superior uma ferramenta de baixo custo e alta eficácia para a promoção da saúde mental comunitária.</p>
+</section>
+<section id="objetivos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos">1.2 Objetivos</h3>
+<section id="objetivo-primário" class="level4">
+<h4 class="anchored" data-anchor-id="objetivo-primário">Objetivo Primário</h4>
+<p>Avaliar a eficácia da aplicação móvel MindMove na redução dos sintomas depressivos em estudantes universitários com sintomatologia ligeira a moderada, medida através da variação na pontuação da escala PHQ-9 após 8 semanas de intervenção, em comparação com um grupo de controlo em lista de espera.</p>
+</section>
+<section id="objetivos-secundários" class="level4">
+<h4 class="anchored" data-anchor-id="objetivos-secundários">Objetivos Secundários</h4>
+<p>Os objetivos secundários deste estudo são:</p>
+<ol type="1">
+<li><p>Comparar a redução dos níveis de ansiedade entre os dois grupos, avaliada através da escala GAD-7. [6]</p></li>
+<li><p>Analisar a melhoria na qualidade do sono dos participantes, utilizando o índice PSQI (Pittsburgh Sleep Quality Index). [4]</p></li>
+<li><p>Avaliar o impacto da intervenção no aumento dos níveis de atividade física semanal dos estudantes.</p></li>
+<li><p>Determinar o nível de <em>engagement</em> dos utilizadores com as funcionalidades da aplicação, incluindo o tempo de uso e a taxa de conclusão dos módulos de dCBT.</p></li>
+<li><p>Monitorizar a satisfação dos participantes com a intervenção e a taxa de abandono (<em>dropout</em>) ao longo das 8 semanas.</p></li>
+</ol>
+<hr>
+</section>
+</section>
+</section>
+<section id="métodos" class="level2">
+<h2 class="anchored" data-anchor-id="métodos">2. Métodos</h2>
+<section id="desenho-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="desenho-do-estudo">2.1 Desenho do Estudo</h3>
+<p>Este é um ensaio clínico randomizado, controlado, de grupos paralelos.</p>
+<p><strong>Características do desenho:</strong></p>
+<ul>
+<li><p>Randomização 1:1 (intervenção : controlo)</p></li>
+<li><p>Duração: 8 semanas</p></li>
+<li><p>Setting: 1 serviço de psicologia universitário</p></li>
+<li><p>Fase: Estudo piloto (pré-teste)</p></li>
+<li><p>Tamanho da amostra: 30 participantes (15 por braço)</p></li>
+</ul>
+<p><strong>Timeline:</strong></p>
+<p>Tabela 1: Cronograma do ensaio clínico MindMove</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Fase do Estudo</th>
+<th style="text-align: center;">Duração</th>
+<th style="text-align: center;">Descrição das Atividades</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Recrutamento</strong></td>
+<td style="text-align: center;">4 semanas</td>
+<td style="text-align: center;">Divulgação nas faculdades, triagem de elegebilidade e assinatura do consentimento informado</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Baseline</strong></td>
+<td style="text-align: center;">1 semana</td>
+<td style="text-align: center;">Avaliação inicial (Questionários GAD-7, PSQI, colheita de sangue) e randomização</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Intervenção</strong></td>
+<td style="text-align: center;">8 semanas</td>
+<td style="text-align: center;">Exercício aeróbico supervisionado (Grupo E) vs.&nbsp;Controlo sedentário (Grupo C)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Follow-up</strong></td>
+<td style="text-align: center;">8 semanas</td>
+<td style="text-align: center;">Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia</td>
+</tr>
+</tbody>
+</table>
+<p>O diagrama CONSORT será utilizado como ferramenta de reporte deste estudo, sendo preenchido na sua totalidade após a conclusão do ensaio clínico (Figura 1).</p>
+<p>![[consort.jpeg]]</p>
+<p>Figura 1: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de recrutamento, elegibilidade, randomização, follow-up e análise dos participantes ao longo do estudo.</p>
+</section>
+<section id="população-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="população-do-estudo">2.2 População do Estudo</h3>
+<p>A população-alvo deste ensaio clínico é constituída por estudantes universitários com idades compreendidas entre os 18 e os 30 anos, que se encontram matriculados em cursos de licenciatura, mestrado ou doutoramento. Este grupo demográfico é selecionado por se encontrar numa fase de transição desenvolvimental com elevada prevalência de stress psicológico, sendo ideal para a implementação de estratégias de prevenção secundária em saúde mental.</p>
+<section id="critérios-de-inclusão" class="level4">
+<h4 class="anchored" data-anchor-id="critérios-de-inclusão">2.2.1 Critérios de Inclusão</h4>
+<p>Serão elegíveis para participação neste estudo indivíduos que cumpram <strong>todos</strong> os seguintes critérios:</p>
+<ol type="1">
+<li><p>Estudantes universitários entre 18 e 30 anos.</p></li>
+<li><p>Sintomas depressivos ligeiros a moderados.</p></li>
+<li><p>PHQ-9 (Patient Health Questionnaire-9) score entre 5 e 14.</p></li>
+<li><p>Possuir e saber utilizar um smartphone com sistema operativo Android (versão 8.0 ou superior) ou iOS (versão 13.0 ou superior), com acesso funcional à internet.</p></li>
+<li><p>Demonstrar capacidade de leitura e compreensão da língua portuguesa, necessária para interagir com os módulos de dCBT e os conteúdos educativos.</p></li>
+<li><p>Ter capacidade cognitiva para compreender os objetivos do estudo e fornecer o Consentimento Informado, Livre e Esclarecido.</p></li>
+<li><p>Declarar disponibilidade para participar no protocolo de intervenção e avaliação durante o período total de 8 semanas, bem como para as sessões de acompanhamento previstas.</p></li>
+</ol>
+</section>
+<section id="critérios-de-exclusão" class="level4">
+<h4 class="anchored" data-anchor-id="critérios-de-exclusão">2.2.2 Critérios de Exclusão</h4>
+<p>Serão excluídos do estudo indivíduos que apresentem <strong>qualquer</strong> dos seguintes critérios:</p>
+<ol type="1">
+<li><p>Diagnóstico prévio de perturbação bipolar, esquizofrenia ou outras psicoses, ou intenção suicida ativa (identificada pelo item 9 do PHQ-9 ou avaliação clínica).</p></li>
+<li><p>Estar a participar noutro ensaio clínico ou ter alterado a medicação psicotrópica (antidepressivos/ansiolíticos) ou iniciado psicoterapia nas 4 semanas anteriores ao recrutamento.</p></li>
+<li><p>Apresentar condições físicas ou ortopédicas severas que impeçam a realização dos exercícios de ativação comportamental e atividade física sugeridos pela aplicação.</p></li>
+<li><p>Mulheres em período de gestação ou lactação, devido às alterações hormonais e de sono que podem confundir a avaliação dos resultados de humor e fadiga.</p></li>
+<li><p>Sem acesso a smartphone ou internet.</p></li>
+<li><p>Qualquer outra condição clínica ou social que, na opinião do investigador principal, possa comprometer a segurança do participante ou a integridade dos dados recolhidos.</p></li>
+</ol>
+</section>
+<section id="processo-de-recrutamento" class="level4">
+<h4 class="anchored" data-anchor-id="processo-de-recrutamento">2.2.3 Processo de Recrutamento</h4>
+<p>Os participantes serão identificados e recrutados através de uma estratégia que combina o contexto clínico e digital. Primeiro, será estabelecida uma colaboração com Unidades de Saúde Familiar (USF), onde os médicos de Medicina Geral e Familiar referenciarão doentes que apresentem queixas de baixo humor ou ansiedade durante consultas de rotina. Paralelamente, serão publicados anúncios em redes sociais institucionais e fóruns de saúde mental, direcionando os interessados para uma página de screening online. Após o preenchimento dos questionários iniciais (PHQ-9), os indivíduos elegíveis serão contactados para uma breve entrevista de validação diagnóstica por videoconferência, onde será formalizado o consentimento informado antes da randomização.</p>
+</section>
+</section>
+<section id="intervenções" class="level3">
+<h3 class="anchored" data-anchor-id="intervenções">2.3 Intervenções</h3>
+<section id="grupo-de-intervenção" class="level4">
+<h4 class="anchored" data-anchor-id="grupo-de-intervenção">2.3.1 Grupo de Intervenção</h4>
+<p>Os participantes randomizados para o grupo de intervenção receberão:</p>
+<p><strong>Aplicação MindMove:</strong></p>
+<p>Esta app constitui uma solução digital de saúde concebida para a autogestão da sintomatologia depressiva.</p>
+<p>Funcionalidades principais:</p>
+<ol type="1">
+<li><strong>Módulos de dCBT e Ativação Comportamental:</strong></li>
+</ol>
+<ul>
+<li><p>A aplicação disponibiliza unidades estruturadas de Terapia Cognitivo-Comportamental digital (dCBT) que abordam a reestruturação cognitiva.</p></li>
+<li><p>O utilizador interage completando exercícios guiados e planeando atividades diárias de ativação comportamental.</p></li>
+<li><p>Espera-se que o participante complete pelo menos um sub-módulo de 15 minutos, três vezes por semana.</p></li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Diário de Humor e Monitorização de Sono:</strong></li>
+</ol>
+<ul>
+<li><p>Interface diária para registo de estado emocional (mood tracking) e métricas de sono (horas totais e percepção de qualidade).</p></li>
+<li><p>A interação é feita através de escalas visuais analógicas.</p></li>
+<li><p>A frequência de uso esperada é de uma utilização diária, preferencialmente ao final do dia.</p></li>
+</ul>
+<p>![[sequencia.png]]</p>
+<p>Figura 2: Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico, desde o recrutamento e avaliação de elegibilidade até à randomização, follow-up e análise final</p>
+<ol start="3" type="1">
+<li><strong>Mindfulness e Sugestões Personalizadas:</strong></li>
+</ol>
+<ul>
+<li><p>Biblioteca de áudios de meditação guiada e técnicas de relaxamento.</p></li>
+<li><p>Com base no humor registado e nos padrões de atividade física detetados pelos sensores do smartphone, a app gera sugestões personalizadas de bem-estar (ex: “Notámos que o seu humor baixou; experimente esta técnica de respiração de 5 minutos”).</p></li>
+</ul>
+<p><strong>Instalação e Onboarding:</strong></p>
+<p>Após a randomização, os participantes recebem um e-mail com um código de acesso único e um link para download (App Store ou Google Play). No primeiro acesso, a app corre um tutorial interativo de 5 minutos que explica a navegação, a configuração de lembretes e a privacidade dos dados.</p>
+<p><strong>Suporte técnico:</strong></p>
+<p>O suporte será garantido através de um canal de chat dentro da própria aplicação e um endereço de e-mail dedicado à equipa de investigação, com tempo de resposta garantido de 24 horas úteis.</p>
+<p>![[diagrama_caso_uso.png]]</p>
+<p>Figura 3: Diagrama de sequência com o processo de registo de humor na apli cação MindMove, desde a introdução dos dados pelo utilizador até ao seu ar mazenamento e processamento</p>
+<p><strong>Cuidado concomitante:</strong></p>
+<p>Os participantes mantêm o seu cuidado médico habitual, incluindo consultas de rotina com o seu médico assistente e qualquer medicação crónica não psicotrópica previamente estabelecida.</p>
+<p>![[atividade_app.png|697]]</p>
+<p>Figura 4: Diagrama de casos de uso da aplicação MindMove, com as principais funcionalidades disponibilizadas ao utilizador.</p>
+</section>
+<section id="grupo-controlo" class="level4">
+<h4 class="anchored" data-anchor-id="grupo-controlo">2.3.2 Grupo Controlo</h4>
+<p>Os participantes deste grupo não terão acesso à aplicação durante as 8 semanas do estudo. Receberão, no momento da inclusão, um documento em formato PDF via e-mail contendo brochuras informativas sobre higiene do sono, importância da atividade física na saúde mental e uma lista de recursos de emergência e linhas de apoio psicológico disponíveis em Portugal.</p>
+<p><strong>Tipo de controlo:</strong> Lista de espera com material educativo estático.</p>
+<p><strong>Justificação do comparador:</strong></p>
+<p>Este comparador representa o <em>standard of care</em> atual em cuidados primários, onde o tempo de espera para intervenções psicológicas especializadas é elevado, sendo o material educativo a única ferramenta de suporte imediato disponível em muitos contextos. O design de lista de espera garante que, por razões éticas, todos os participantes tenham acesso à tecnologia benéfica após o período de avaliação principal.</p>
+</section>
+<section id="critérios-de-descontinuação" class="level4">
+<h4 class="anchored" data-anchor-id="critérios-de-descontinuação">2.3.3 Critérios de Descontinuação</h4>
+<p>Participantes serão retirados do estudo se:</p>
+<ol type="1">
+<li><p>Retirarem voluntariamente o seu consentimento em qualquer fase do processo.</p></li>
+<li><p>Desenvolverem agravamento clínico severo, nomeadamente se surgir intenção suicida ou necessidade de internamento psiquiátrico imediato.</p></li>
+<li><p>Ocorrer uma violação grave do protocolo, como a partilha das credenciais de acesso à aplicação com terceiros ou início de nova terapia psicofarmacológica durante o estudo.</p></li>
+</ol>
+<p>![[atividade_ participante.png]] <strong>Figura 5:</strong> Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico, desde o recrutamento e avaliação de elegibilidade até à randomização, follow-up e análise final.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="avaliações-e-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="avaliações-e-outcomes">3. Avaliações e Outcomes</h2>
+<section id="outcome-primário" class="level3">
+<h3 class="anchored" data-anchor-id="outcome-primário">3.1 Outcome Primário</h3>
+<p>Pontuação total na escala PHQ-9 (<em>Patient Health Questionnaire-9</em>).</p>
+<ul>
+<li><strong>Instrumento:</strong> PHQ-9, um instrumento de autorrelato validado, composto por 9 itens que avaliam a severidade dos sintomas depressivos nos últimos 14 dias, baseado nos critérios do DSM-5 (Kroenke et al., 2001).</li>
+<li><strong>Momento de avaliação:</strong> Avaliação realizada no momento <em>baseline</em> (semana 0, pré-randomização) e no final da intervenção (semana 8).</li>
+<li><strong>Definição de sucesso:</strong> Redução estatisticamente significativa na média da pontuação total do PHQ-9 no grupo de intervenção (MindMove) em comparação com o grupo de controlo (lista de espera) às 8 semanas, refletindo uma diminuição na severidade da sintomatologia depressiva dos participantes.</li>
+</ul>
+</section>
+<section id="outcomes-secundários" class="level3">
+<h3 class="anchored" data-anchor-id="outcomes-secundários">3.2 Outcomes Secundários</h3>
+<ul>
+<li><strong>Redução dos níveis de ansiedade:</strong> Avaliada através da escala <em>Generalized Anxiety Disorder-7</em> (GAD-7) nas semanas 0, 4 e 8, permitindo aferir a co-ocorrência de melhorias nos sintomas ansiosos.</li>
+<li><strong>Melhoria na qualidade do sono:</strong> Medida através do <em>Pittsburgh Sleep Quality Index</em> (PSQI) às 8 semanas, para verificar se os módulos de higiene do sono da app resultam em benefícios clinicamente observáveis.</li>
+<li><strong>Aumento dos níveis de atividade física:</strong> Quantificado em minutos de atividade física moderada a vigorosa por semana (através de autorrelato), para avaliar o impacto dos lembretes e incentivos da app no estilo de vida dos estudantes.</li>
+<li><strong>Nível de adesão e engagement:</strong> Monitorizado através de métricas de utilização da app (ex: frequência de acesso semanal, tempo de uso diário e número de módulos de dCBT e técnicas de mindfulness completados) durante as 8 semanas.</li>
+<li><strong>Satisfação e aceitabilidade:</strong> Avaliadas ao final das 8 semanas através de um questionário de satisfação (ex: <em>Client Satisfaction Questionnaire</em> - CSQ-8), para compreender a utilidade percebida e a facilidade de uso da MindMove na rotina académica.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="análise-estatística" class="level2">
+<h2 class="anchored" data-anchor-id="análise-estatística">4. Análise Estatística</h2>
+<p>A análise dos dados será realizada utilizando o software R. O nível de significância estatística será fixado em <span class="math inline">\(\alpha = 0,05\)</span> para todos os testes. Para comparar as diferenças nas médias do PHQ-9 entre o grupo de intervenção e o grupo de controlo, será utilizado o teste <em>t</em> de Student para amostras independentes, cuja estatística é calculada pela seguinte equação:</p>
+<p><span class="math display">\[t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\]</span></p>
+<p><strong>Onde:</strong> * <span class="math inline">\(\bar{X}_1\)</span> e <span class="math inline">\(\bar{X}_2\)</span> são as médias das pontuações PHQ-9 de cada grupo; * <span class="math inline">\(s_1^2\)</span> e <span class="math inline">\(s_2^2\)</span> são as respetivas variâncias; * <span class="math inline">\(n_1\)</span> e <span class="math inline">\(n_2\)</span> são os tamanhos das amostras de cada braço do estudo.</p>
+<p>A análise principal do <em>outcome</em> primário será conduzida segundo o princípio de Intenção de Tratar (<em>Intention-to-Treat</em> – ITT) (McCoy, 2017). A análise dos dados será realizada utilizando o software R. O nível de significância estatística será fixado em <span class="math inline">\(\alpha = 0,05\)</span> para todos os testes. Para minimizar o viés de exclusão, todos os 30 participantes randomizados serão incluídos na análise final, independentemente da sua adesão à aplicação MindMove. Caso haja ocorrência de desistências (<em>dropouts</em>), será utilizado o método de Imputação Múltipla para preencher os valores em falta nos questionários PHQ-9, GAD-7 e PSQI.</p>
+<p>A análise principal do <em>outcome</em> primário (variação do <em>score</em> PHQ-9) será conduzida segundo o princípio de Intenção de Tratar (<em>Intention-to-Treat</em> – ITT). Para comparar as diferenças nas médias do PHQ-9 entre o grupo de intervenção e o grupo de controlo no final das 8 semanas, será utilizado um teste <em>t</em> de Student para amostras independentes (ou o teste não paramétrico de Mann-Whitney, caso os dados não apresentem distribuição normal). Os dados em falta (<em>missing data</em>) resultantes de abandonos serão tratados através de métodos de imputação apropriados.</p>
+<section id="análise-dos-outcomes-secundários" class="level3">
+<h3 class="anchored" data-anchor-id="análise-dos-outcomes-secundários">Análise dos Outcomes Secundários</h3>
+<p>Para a ansiedade (GAD-7) e qualidade do sono (PSQI), utilizaremos uma ANOVA de Medidas Repetidas para avaliar a evolução dos sintomas nos três momentos de medição (0, 4 e 8 semanas). A adesão (<em>engagement</em>) será analisada de forma descritiva através da média e desvio-padrão do número de acessos semanais à aplicação. A taxa de eventos adversos (ex: agravamento severo de sintomas) será comparada entre grupos através do Teste Exato de Fisher.</p>
+<hr>
+</section>
+</section>
+<section id="ética-e-disseminação" class="level2">
+<h2 class="anchored" data-anchor-id="ética-e-disseminação">5. Ética e Disseminação</h2>
+<section id="aprovação-ética" class="level3">
+<h3 class="anchored" data-anchor-id="aprovação-ética">5.1 Aprovação Ética</h3>
+<p>O presente protocolo de investigação foi desenhado em estrita conformidade com a Declaração de Helsínquia e com as diretrizes de Boas Práticas Clínicas (GCP). [7] O estudo será submetido para apreciação e aprovação pela Comissão de Ética da Faculdade de Medicina da Universidade do Porto (CEFMUP) antes do início de qualquer procedimento de recrutamento. Quaisquer alterações substanciais ao protocolo serão formalmente comunicadas e submetidas a nova aprovação ética.</p>
+</section>
+<section id="consentimento-informado" class="level3">
+<h3 class="anchored" data-anchor-id="consentimento-informado">5.2 Consentimento Informado</h3>
+<p>A obtenção do Consentimento Informado, Livre e Esclarecido (CILE) será realizada de forma digital durante a fase de <em>screening</em>. Os potenciais participantes receberão um documento detalhado contendo os objetivos do estudo, os procedimentos envolvidos, os potenciais riscos e benefícios, e a garantia de que a participação é totalmente voluntária. Sendo a população composta por estudantes universitários, será explicitamente clarificado que a recusa em participar ou a desistência do estudo em qualquer fase não acarretará qualquer penalização académica ou perda de acesso a cuidados de saúde habituais. O consentimento formal será registado através de uma assinatura digital segura antes da randomização.</p>
+</section>
+<section id="confidencialidade-e-proteção-de-dados" class="level3">
+<h3 class="anchored" data-anchor-id="confidencialidade-e-proteção-de-dados">5.3 Confidencialidade e Proteção de Dados</h3>
+<p>O tratamento de dados pessoais e clínicos cumprirá rigorosamente o Regulamento Geral sobre a Proteção de Dados (RGPD). Todos os dados recolhidos através da aplicação móvel <em>MindMove</em> ou de questionários online serão pseudonimizados, sendo atribuído um código alfanumérico único a cada participante. A chave de identificação que liga os códigos aos dados pessoais será guardada de forma encriptada num servidor seguro da instituição, com acesso restrito aos investigadores principais. Os dados gerados pela interação com a aplicação serão armazenados em servidores <em>cloud</em> com certificação de segurança na área da saúde e não serão partilhados com terceiros para fins comerciais.</p>
+</section>
+<section id="política-de-disseminação" class="level3">
+<h3 class="anchored" data-anchor-id="política-de-disseminação">5.4 Política de Disseminação</h3>
+<p>Os resultados deste ensaio clínico, quer sejam positivos, negativos ou inconclusivos, serão submetidos para publicação em revistas científicas com revisão por pares na área da saúde mental digital e psiquiatria. Os dados serão apresentados de forma agregada, garantindo o total anonimato dos participantes. Adicionalmente, os resultados serão partilhados em conferências científicas da especialidade. Após a conclusão e análise dos dados, será enviado um resumo em linguagem acessível a todos os participantes do estudo, e a intervenção <em>MindMove</em> será disponibilizada gratuitamente aos estudantes que integraram o grupo de controlo. ## 6. Referências Bibliográficas</p>
+</section>
+<section id="prompt-usado-na-ia" class="level3">
+<h3 class="anchored" data-anchor-id="prompt-usado-na-ia">6.1 Prompt usado na IA</h3>
+<p>Para a elaboração e estruturação deste protocolo segundo a norma SPIRIT, utilizou-se o assistente de IA Gemini (Google). A interação seguiu as diretrizes de transparência sugeridas, utilizando os seguintes comandos:</p>
+<blockquote class="blockquote">
+<p><strong>Gemini:</strong> Estou a escrever o racional de um protocolo SPIRIT para um ensaio clínico randomizado. Cenário: App MindMove com as seguintes funcionalidades: Módulos de dCBT (digital Cognitive Behavioral Therapy), Exercícios de ativação comportamental, Diário de humor (mood tracking), Lembretes para atividade física, Técnicas de mindfulness guiadas, Monitorização de padrões de sono, Sugestões personalizadas baseadas em humor. Comparador: Lista de espera + material educativo estático: Acesso a brochuras sobre saúde mental, Lista de recursos disponíveis, SEM intervenção activa durante estudo, Oferta de acesso à app após conclusão do estudo. Outcome primário: PHQ-9 score às 8 semanas. Secundários: GAD-7 (ansiedade), Nível de atividade física (minutos/semana), Qualidade do sono (PSQI - Pittsburgh Sleep Quality Index), Satisfação com intervenção, Engagement com app (tempo de uso, módulos completados), Taxa de dropout. Escreve (…) Usar linguagem científica formal. Não usar marcadores de lista — texto corrido.</p>
+</blockquote>
+</section>
+<section id="referências" class="level3">
+<h3 class="anchored" data-anchor-id="referências">6.2 Referências</h3>
+<ol type="1">
+<li>Ibrahim, A.K., et al., A systematic review of studies of depression prevalence in university students. <em>J Psychiatr Res</em>, 2013. <strong>47</strong>(3): p.&nbsp;391–400.</li>
+<li>Gulliver, A., K.M. Griffiths, and H. Christensen, Perceived barriers and facilitators to mental health help-seeking in young people: a systematic review. <em>BMC Psychiatry</em>, 2010. <strong>10</strong>: p.&nbsp;113.</li>
+<li>Karyotaki, E., et al., Internet-Based Cognitive Behavioral Therapy for Depression: A Systematic Review and Individual Patient Data Network Meta-analysis. <em>JAMA Psychiatry</em>, 2021. <strong>78</strong>(4): p.&nbsp;361–371.</li>
+<li>Spitzer, R.L., et al., A brief measure for assessing generalized anxiety disorder: the GAD-7. <em>Arch Intern Med</em>, 2006. <strong>166</strong>(10): p.&nbsp;1092–7.</li>
+<li>Kroenke, K., R.L. Spitzer, and J.B. Williams, The PHQ-9: validity of a brief depression severity measure. <em>J Gen Intern Med</em>, 2001. <strong>16</strong>(9): p.&nbsp;606–13.</li>
+<li>World Medical, A., World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects. <em>JAMA</em>, 2013. <strong>310</strong>(20): p.&nbsp;2191–4.</li>
+</ol>
+<hr>
+<p><strong>Versão:</strong> 1.1<br>
+<strong>Data desta versão:</strong> 26/03/26<br>
+<strong>Autores desta versão:</strong> Maria João Marques Roso, Inês Mota Assunção, Maria João Lopes Roldão, Inês Duque Formoso</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
