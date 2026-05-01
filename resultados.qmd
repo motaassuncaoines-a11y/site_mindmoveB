@@ -74,4 +74,10 @@ ggsave(
   dpi = 150
 )
 ```
+### Interpretação
 
+**Características Basais:**
+A análise da Tabela 1 demonstra que o processo de randomização foi bem-sucedido. Não se verificaram diferenças estatisticamente significativas entre o grupo de intervenção (*MindMove*) e o grupo de controlo no que diz respeito às características sociodemográficas (Idade e Sexo) e clínicas (níveis basais de depressão medidos pelo PHQ-9 e ansiedade pelo GAD-7), com todos os *p-values* > 0.05. Este equilíbrio inicial garante que as diferenças observadas no final do estudo poderão ser atribuídas à intervenção e não a fatores de confundimento prévios.
+
+**Outcome Primário:**
+A análise preliminar do outcome primário às 8 semanas, ilustrada no *boxplot*, sugere uma tendência clinicamente favorável para o grupo de intervenção. Observa-se que a mediana da pontuação de depressão (escala PHQ-9) é visivelmente inferior no grupo que utilizou a aplicação *MindMove* em comparação com o grupo de controlo em lista de espera. Estes dados preliminares apontam para a potencial eficácia da intervenção dCBT na redução da sintomatologia depressiva ligeira a moderada na nossa amostra.
