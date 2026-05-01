@@ -13,5 +13,5 @@ O fluxo principal demonstrado no protótipo foca-se em duas funcionalidades-chav
 * **UX / Prevenção de Erros:** O protótipo inclui validação de dados visuais (avisos a vermelho) caso o participante tente avançar sem preencher os minutos, demonstrando boas práticas de usabilidade em saúde digital.
 
 Ao entrar no link abaixo pode navegar interativamente pelos ecrãs da nossa aplicação:
-https://www.figma.com/design/Lc41uxhswBDwFAH3voAbmz/MindMove?node-id=0-1&t=TjEJvTyRIHkw8XFW-1
+[https://www.figma.com/design/Lc41uxhswBDwFAH3voAbmz/MindMove?node-id=0-1&t=TjEJvTyRIHkw8XFW-1]
 *(Nota: Para testar o fluxo de erro, tente clicar em "Guardar atividade" sem inserir nenhum valor no campo de texto).*
