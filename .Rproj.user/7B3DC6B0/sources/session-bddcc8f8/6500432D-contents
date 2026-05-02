@@ -13,5 +13,17 @@ O fluxo principal demonstrado no protótipo foca-se em duas funcionalidades-chav
 * **UX / Prevenção de Erros:** O protótipo inclui validação de dados visuais (avisos a vermelho) caso o participante tente avançar sem preencher os minutos, demonstrando boas práticas de usabilidade em saúde digital.
 
 Ao entrar no link abaixo pode navegar interativamente pelos ecrãs da nossa aplicação:
-[https://www.figma.com/design/Lc41uxhswBDwFAH3voAbmz/MindMove?node-id=0-1&t=TjEJvTyRIHkw8XFW-1]
+[Clique aqui para visualizar os ecrãs da nossa app](https://www.figma.com/design/Lc41uxhswBDwFAH3voAbmz/MindMove?node-id=0-1&t=TjEJvTyRIHkw8XFW-1)
 *(Nota: Para testar o fluxo de erro, tente clicar em "Guardar atividade" sem inserir nenhum valor no campo de texto).*
+
+### Caderno de Recolha de Dados (REDCap)
+
+Para a recolha, gestão e armazenamento seguro dos dados clínicos dos participantes ao longo do ensaio, utilizámos a plataforma **REDCap** (*Research Electronic Data Capture*). 
+
+O nosso Caderno de Recolha de Dados (CRF - *Clinical Record Form*) foi estruturado para garantir a integridade da informação desde o momento de *baseline* até ao final do *follow-up*. O CRF inclui a recolha de:
+*   **Dados Sociodemográficos:** Idade, género e índice de massa corporal (IMC).
+*   **Instrumentos Clínicos:** Escalas validadas para avaliação do *outcome* primário (PHQ-9 para sintomas depressivos) e *outcomes* secundários (GAD-7 para ansiedade e PSQI para qualidade do sono).
+
+Pode testar o nosso formulário de recolha de dados de forma interativa através do link abaixo:
+
+[Clique aqui para preencher o formulário de demonstração no REDCap](https://redcap.med.up.pt/redcap/surveys/?s=4CTP7RMA4WRECXKN)
