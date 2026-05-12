@@ -156,7 +156,7 @@ Tabela 1: Cronograma do ensaio clínico MindMove
 |:---|:--:|:--:|
 | **Recrutamento** | 4 semanas | Divulgação nas faculdades, triagem de elegebilidade e assinatura do consentimento informado |
 | **Baseline** | 1 semana | Avaliação inicial (Questionários GAD-7, PSQI) e randomização |
-| **Intervenção** | 8 semanas | Exercício aeróbico supervisionado (Grupo E) vs. Controlo sedentário (Grupo C) |
+| **Intervenção** | 8 semanas |Utilização da aplicação móvel MindMove (Grupo de Intervenção) vs. Lista de espera com acesso a material educativo estático (Grupo de Controlo). |
 | **Follow-up** | 8 semanas | Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia |
 
 O diagrama CONSORT será utilizado como ferramenta de reporte deste
