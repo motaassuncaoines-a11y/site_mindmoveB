@@ -17,41 +17,26 @@ MindMove: Eficácia dCBT em Estudantes Universitários
 
 **Investigadores Principais:**
 
-- Maria João Marques Roso, Faculdade de Medicina da Universidade do
-  Porto
-
+- Maria João Marques Roso, Faculdade de Medicina da Universidade do Porto
 - Inês Mota Assunção, Faculdade de Medicina da Universidade do Porto
-
-- Maria João Lopes Roldão, Faculdade de Medicina da Universidade do
-  Porto
-
+- Maria João Lopes Roldão, Faculdade de Medicina da Universidade do Porto
 - Inês Duque Formoso, Faculdade de Medicina da Universidade do Porto
 
 **Instituição:** Faculdade de Medicina da Universidade do Porto
 
 **Contactos:** Email(s)
-
 - up202507727@up.pt
-
 - up202503920@up.pt
-
 - up202504015@up.pt
-
 - up202004344@up.pt
 
 ### Identificação do Ensaio
 
 **Tipo de estudo:** Ensaio clínico randomizado, controlado, paralelo
 
-<<<<<<< HEAD
-**Data de início prevista:** 02/03/26
-
-**Data de conclusão prevista:** 30/05/26
-=======
 **Data de início prevista:** 02/02/26
 
 **Data de conclusão prevista:** 28/06/26
->>>>>>> aff73c278f68ea62964dd7918206e60c09201926
 
 ------------------------------------------------------------------------
 
@@ -59,99 +44,42 @@ MindMove: Eficácia dCBT em Estudantes Universitários
 
 ### 1.1 Racional
 
-A saúde mental dos estudantes universitários constitui um desafio de
-saúde pública de magnitude crescente. A transição para a vida académica,
-caracterizada por pressões académicas, financeiras e sociais, expõe esta
-população a um stress acumulado que resulta numa prevalência elevada de
-sintomatologia depressiva ligeira a moderada. Este período representa
-uma fase de vulnerabilidade crítica onde, caso não seja intervencionado
-precocemente, o sofrimento emocional pode comprometer o rendimento
-académico e progredir para quadros de depressão maior. \[1\]
+A saúde mental dos estudantes universitários constitui um desafio de saúde pública de magnitude crescente. A transição para a vida académica, caracterizada por pressões académicas, financeiras e sociais, expõe esta população a um stress acumulado que resulta numa prevalência elevada de sintomatologia depressiva ligeira a moderada. Este período representa uma fase de vulnerabilidade crítica onde, caso não seja intervencionado precocemente, o sofrimento emocional pode comprometer o rendimento académico e progredir para quadros de depressão maior. [1]
 
-Atualmente, o acesso aos cuidados convencionais de saúde mental enfrenta
-limitações estruturais severas. Nos contextos universitários, os
-serviços de psicologia debatem-se com listas de espera extensas e
-horários rígidos que dificultam a procura de ajuda. Adicionalmente, o
-estigma associado ao apoio presencial atua como uma barreira
-psicológica, levando a que muitos estudantes adiem a procura de auxílio
-até que os sintomas se tornem incapacitantes, perdendo-se a janela de
-oportunidade para uma intervenção mais eficaz. \[2\]
+Atualmente, o acesso aos cuidados convencionais de saúde mental enfrenta limitações estruturais severas. Nos contextos universitários, os serviços de psicologia debatem-se com listas de espera extensas e horários rígidos que dificultam a procura de ajuda. Adicionalmente, o estigma associado ao apoio presencial atua como uma barreira psicológica, levando a que muitos estudantes adiem a procura de auxílio até que os sintomas se tornem incapacitantes, perdendo-se a janela de oportunidade para uma intervenção mais eficaz. [2]
 
-A evidência científica recente tem demonstrado que as intervenções
-digitais, particularmente a terapia cognitivo-comportamental digital
-(dCBT), são ferramentas eficazes, escaláveis e desestigmatizantes para a
-gestão de sintomas depressivos e ansiosos. Estas soluções permitem
-alcançar uma população vasta que, de outra forma, permaneceria sem
-suporte profissional. \[3\]
+A evidência científica recente tem demonstrado que as intervenções digitais, particularmente a terapia cognitivo-comportamental digital (dCBT), são ferramentas eficazes, escaláveis e desestigmatizantes para a gestão de sintomas depressivos e ansiosos. Estas soluções permitem alcançar uma população vasta que, de outra forma, permaneceria sem suporte profissional. [3]
 
-Este estudo pretende preencher uma lacuna na literatura ao avaliar o
-impacto de uma solução integrada, a aplicação “MindMove”. Ao combinar
-módulos de dCBT com ferramentas de ativação comportamental, diário de
-humor, monitorização de sono e sugestões de atividade física, o
-“MindMove” propõe uma abordagem holística e personalizada, desenhada
-especificamente para os hábitos e necessidades da população estudantil.
+Este estudo pretende preencher uma lacuna na literatura ao avaliar o impacto de uma solução integrada, a aplicação “MindMove”. Ao combinar módulos de dCBT com ferramentas de ativação comportamental, diário de humor, monitorização de sono e sugestões de atividade física, o “MindMove” propõe uma abordagem holística e personalizada, desenhada especificamente para os hábitos e necessidades da população estudantil.
 
-A escolha da lista de espera com material educativo como comparador é
-eticamente justificada. Este desenho assegura que o grupo controlo não é
-privado de suporte informativo, mantendo-se o acesso a recursos básicos
-de saúde mental, e garante, simultaneamente, que todos os participantes
-beneficiem do acesso à aplicação após a conclusão do ensaio.
+A escolha da lista de espera com material educativo como comparador é eticamente justificada. Este desenho assegura que o grupo controlo não é privado de suporte informativo, mantendo-se o acesso a recursos básicos de saúde mental, e garante, simultaneamente, que todos os participantes beneficiem do acesso à aplicação após a conclusão do ensaio.
 
-A relevância clínica deste ensaio reside no seu potencial de validação
-como estratégia de prevenção secundária. Espera-se que a intervenção
-reduza a carga de sintomas depressivos, promovendo a autonomia do
-estudante na gestão do seu bem-estar e oferecendo às instituições de
-ensino superior uma ferramenta de baixo custo e alta eficácia para a
-promoção da saúde mental comunitária.
+A relevância clínica deste ensaio reside no seu potencial de validação como estratégia de prevenção secundária. Espera-se que a intervenção reduza a carga de sintomas depressivos, promovendo a autonomia do estudante na gestão do seu bem-estar e oferecendo às instituições de ensino superior uma ferramenta de baixo custo e alta eficácia para a promoção da saúde mental comunitária.
 
 ### 1.2 Objetivos
 
 #### Objetivo Primário
-
-Avaliar a eficácia da aplicação móvel MindMove na redução dos sintomas
-depressivos em estudantes universitários com sintomatologia ligeira a
-moderada, medida através da variação na pontuação da escala PHQ-9 após 8
-semanas de intervenção, em comparação com um grupo de controlo em lista
-de espera.
+Avaliar a eficácia da aplicação móvel MindMove na redução dos sintomas depressivos em estudantes universitários com sintomatologia ligeira a moderada, medida através da variação na pontuação da escala PHQ-9 após 8 semanas de intervenção, em comparação com um grupo de controlo em lista de espera.
 
 #### Objetivos Secundários
-
-Os objetivos secundários deste estudo são:
-
-1.  Comparar a redução dos níveis de ansiedade entre os dois grupos,
-    avaliada através da escala GAD-7. \[6\]
-
-2.  Analisar a melhoria na qualidade do sono dos participantes,
-    utilizando o índice PSQI (Pittsburgh Sleep Quality Index). \[4\]
-
-3.  Avaliar o impacto da intervenção no aumento dos níveis de atividade
-    física semanal dos estudantes.
-
-4.  Determinar o nível de *engagement* dos utilizadores com as
-    funcionalidades da aplicação, incluindo o tempo de uso e a taxa de
-    conclusão dos módulos de dCBT.
-
-5.  Monitorizar a satisfação dos participantes com a intervenção e a
-    taxa de abandono (*dropout*) ao longo das 8 semanas.
+1. Comparar a redução dos níveis de ansiedade entre os dois grupos, avaliada através da escala GAD-7. [6]
+2. Analisar a melhoria na qualidade do sono dos participantes, utilizando o índice PSQI (Pittsburgh Sleep Quality Index). [4]
+3. Avaliar o impacto da intervenção no aumento dos níveis de atividade física semanal dos estudantes.
+4. Determinar o nível de engagement dos utilizadores com as funcionalidades da aplicação, incluindo o tempo de uso e a taxa de conclusão dos módulos de dCBT.
+5. Monitorizar a satisfação dos participantes com a intervenção e a taxa de abandono (dropout) ao longo das 8 semanas.
 
 ------------------------------------------------------------------------
 
 ## 2. Métodos
 
 ### 2.1 Desenho do Estudo
-
 Este é um ensaio clínico randomizado, controlado, de grupos paralelos.
 
 **Características do desenho:**
-
 - Randomização 1:1 (intervenção : controlo)
-
 - Duração: 8 semanas
-
 - Setting: 1 serviço de psicologia universitário
-
 - Fase: Estudo piloto (pré-teste)
-
 - Tamanho da amostra: 30 participantes (15 por braço)
 
 **Timeline:**
@@ -160,239 +88,58 @@ Tabela 1: Cronograma do ensaio clínico MindMove
 
 | Fase do Estudo | Duração | Descrição das Atividades |
 |:---|:--:|:--:|
-| **Recrutamento** | 4 semanas | Divulgação nas faculdades, triagem de elegebilidade e assinatura do consentimento informado |
+| **Recrutamento** | 4 semanas | Divulgação nas faculdades, triagem de elegibilidade e assinatura do consentimento informado |
 | **Baseline** | 1 semana | Avaliação inicial (Questionários GAD-7, PSQI) e randomização |
-<<<<<<< HEAD
-| **Intervenção** | 8 semanas | Intervenção dCBT MindMove (Grupo Intervenção) vs. Lista de espera com material educativo (Grupo Controlo) |
-=======
-| **Intervenção** | 8 semanas |Utilização da aplicação móvel MindMove (Grupo de Intervenção) vs. Lista de espera com acesso a material educativo estático (Grupo de Controlo). |
->>>>>>> aff73c278f68ea62964dd7918206e60c09201926
-| **Follow-up** | 8 semanas | Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia |
+| **Intervenção** | 8 semanas | Utilização da aplicação móvel MindMove (Grupo de Intervenção) vs. Lista de espera com acesso a material educativo estático (Grupo de Controlo). |
+| **Follow-up** | 8 semanas | Avaliações intermédias (4ª sem) e avaliação final (8ª sem) para medir eficácia |
 
-O diagrama CONSORT será utilizado como ferramenta de reporte deste
-estudo, sendo preenchido na sua totalidade após a conclusão do ensaio
-clínico (Figura 1).
+O diagrama CONSORT será utilizado como ferramenta de reporte deste estudo, sendo preenchido na sua totalidade após a conclusão do ensaio clínico (Figura 1).
 
-<<<<<<< HEAD
-![](consort.png)
-
-Figura 1: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de
-recrutamento, elegibilidade, randomização, follow-up e análise dos
-participantes ao longo do estudo.
-=======
-![**Figura 1**: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de
-recrut)amento, elegibilidade, randomização, follow-up e análise dos
-participantes ao longo do estudo.](consort.png)
-
->>>>>>> aff73c278f68ea62964dd7918206e60c09201926
+![**Figura 1**: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de recrutamento, elegibilidade, randomização, follow-up e análise dos participantes ao longo do estudo.](consort.png)
 
 ### 2.2 População do Estudo
-
-A população-alvo deste ensaio clínico é constituída por estudantes
-universitários com idades compreendidas entre os 18 e os 30 anos, que se
-encontram matriculados em cursos de licenciatura, mestrado ou
-doutoramento. Este grupo demográfico é selecionado por se encontrar numa
-fase de transição desenvolvimental com elevada prevalência de stress
-psicológico, sendo ideal para a implementação de estratégias de
-prevenção secundária em saúde mental.
+A população-alvo deste ensaio clínico é constituída por estudantes universitários com idades compreendidas entre os 18 e os 30 anos.
 
 #### 2.2.1 Critérios de Inclusão
-
-Serão elegíveis para participação neste estudo indivíduos que cumpram
-**todos** os seguintes critérios:
-
-1.  Estudantes universitários entre 18 e 30 anos.
-
-2.  Sintomas depressivos ligeiros a moderados.
-
-3.  PHQ-9 (Patient Health Questionnaire-9) score entre 5 e 14.
-
-4.  Possuir e saber utilizar um smartphone com sistema operativo Android
-    (versão 8.0 ou superior) ou iOS (versão 13.0 ou superior), com
-    acesso funcional à internet.
-
-5.  Demonstrar capacidade de leitura e compreensão da língua portuguesa,
-    necessária para interagir com os módulos de dCBT e os conteúdos
-    educativos.
-
-6.  Ter capacidade cognitiva para compreender os objetivos do estudo e
-    fornecer o Consentimento Informado, Livre e Esclarecido.
-
-7.  Declarar disponibilidade para participar no protocolo de intervenção
-    e avaliação durante o período total de 8 semanas, bem como para as
-    sessões de acompanhamento previstas.
+1. Estudantes universitários entre 18 e 30 anos.
+2. Sintomas depressivos ligeiros a moderados.
+3. PHQ-9 score entre 5 e 14.
+4. Possuir e saber utilizar um smartphone com acesso à internet.
+5. Capacidade de leitura e compreensão da língua portuguesa.
+6. Fornecer o Consentimento Informado.
+7. Disponibilidade para as 8 semanas de protocolo.
 
 #### 2.2.2 Critérios de Exclusão
-
-Serão excluídos do estudo indivíduos que apresentem **qualquer** dos
-seguintes critérios:
-
-1.  Diagnóstico prévio de perturbação bipolar, esquizofrenia ou outras
-    psicoses, ou intenção suicida ativa (identificada pelo item 9 do
-    PHQ-9 ou avaliação clínica).
-
-2.  Estar a participar noutro ensaio clínico ou ter alterado a medicação
-    psicotrópica (antidepressivos/ansiolíticos) ou iniciado psicoterapia
-    nas 4 semanas anteriores ao recrutamento.
-
-3.  Apresentar condições físicas ou ortopédicas severas que impeçam a
-    realização dos exercícios de ativação comportamental e atividade
-    física sugeridos pela aplicação.
-
-4.  Mulheres em período de gestação ou lactação, devido às alterações
-    hormonais e de sono que podem confundir a avaliação dos resultados
-    de humor e fadiga.
-
-5.  Sem acesso a smartphone ou internet.
-
-6.  Qualquer outra condição clínica ou social que, na opinião do
-    investigador principal, possa comprometer a segurança do
-    participante ou a integridade dos dados recolhidos.
-
-#### 2.2.3 Processo de Recrutamento
-
-Os participantes serão identificados e recrutados através de uma
-estratégia que combina o contexto clínico e digital. Primeiro, será
-estabelecida uma colaboração com Unidades de Saúde Familiar (USF), onde
-os médicos de Medicina Geral e Familiar referenciarão doentes que
-apresentem queixas de baixo humor ou ansiedade durante consultas de
-rotina. Paralelamente, serão publicados anúncios em redes sociais
-institucionais e fóruns de saúde mental, direcionando os interessados
-para uma página de screening online. Após o preenchimento dos
-questionários iniciais (PHQ-9), os indivíduos elegíveis serão
-contactados para uma breve entrevista de validação diagnóstica por
-videoconferência, onde será formalizado o consentimento informado antes
-da randomização.
+1. Diagnóstico de psicose ou intenção suicida ativa.
+2. Alteração de medicação psicotrópica nas 4 semanas anteriores.
+3. Condições físicas que impeçam a ativação comportamental.
+4. Gestação ou lactação.
+5. Sem acesso a smartphone.
 
 ### 2.3 Intervenções
 
 #### 2.3.1 Grupo de Intervenção
+Os participantes receberão a **Aplicação MindMove**.
 
-Os participantes randomizados para o grupo de intervenção receberão:
+1. **Módulos de dCBT e Ativação Comportamental:** Unidades estruturadas para reestruturação cognitiva e planeamento de atividades.
+2. **Diário de Humor e Monitorização de Sono:** Registo de estado emocional e métricas de sono.
 
-**Aplicação MindMove:**
-
-Esta app constitui uma solução digital de saúde concebida para a
-autogestão da sintomatologia depressiva.
-
-Funcionalidades principais:
-
-1.  **Módulos de dCBT e Ativação Comportamental:**
-
-- A aplicação disponibiliza unidades estruturadas de Terapia
-  Cognitivo-Comportamental digital (dCBT) que abordam a reestruturação
-  cognitiva.
-
-- O utilizador interage completando exercícios guiados e planeando
-  atividades diárias de ativação comportamental.
-
-- Espera-se que o participante complete pelo menos um sub-módulo de 15
-  minutos, três vezes por semana.
-
-2.  **Diário de Humor e Monitorização de Sono:**
-
-- Interface diária para registo de estado emocional (mood tracking) e
-  métricas de sono (horas totais e percepção de qualidade).
-
-- A interação é feita através de escalas visuais analógicas.
-
-- A frequência de uso esperada é de uma utilização diária,
-  preferencialmente ao final do dia.
-
-<<<<<<< HEAD
-![](atividade_participante.png)
-
-  Figura 2: Diagrama de atividade que representa o percurso do
-  participante ao longo do ensaio clínico, desde o recrutamento e
-  avaliação de elegibilidade até à randomização, follow-up e análise
-  final
-=======
 ![**Figura 2**: Diagrama de sequência com o processo de registo de humor na aplicação MindMove, desde a introdução dos dados pelo utilizador até ao seu armazenamento e processamento.](sequencia.png)
->>>>>>> aff73c278f68ea62964dd7918206e60c09201926
 
-3.  **Mindfulness e Sugestões Personalizadas:**
+3. **Mindfulness e Sugestões Personalizadas:** Biblioteca de meditação e sugestões baseadas no humor registado.
 
-- Biblioteca de áudios de meditação guiada e técnicas de relaxamento.
-
-- Com base no humor registado e nos padrões de atividade física
-  detetados pelos sensores do smartphone, a app gera sugestões
-  personalizadas de bem-estar (ex: “Notámos que o seu humor baixou;
-  experimente esta técnica de respiração de 5 minutos”).
-
-**Instalação e Onboarding:**
-
-Após a randomização, os participantes recebem um e-mail com um código de
-acesso único e um link para download (App Store ou Google Play). No
-primeiro acesso, a app corre um tutorial interativo de 5 minutos que
-explica a navegação, a configuração de lembretes e a privacidade dos
-dados.
-
-**Suporte técnico:**
-
-O suporte será garantido através de um canal de chat dentro da própria
-aplicação e um endereço de e-mail dedicado à equipa de investigação, com
-tempo de resposta garantido de 24 horas úteis.
-
-<<<<<<< HEAD
-![](sequencia.png)
-
-Figura 3: Diagrama de sequência com o processo de registo de humor na
-aplicação MindMove, desde a introdução dos dados pelo utilizador até ao
-seu armazenamento e processamento
-=======
 ![**Figura 3**: Diagrama de casos de uso da aplicação MindMove, com as principais funcionalidades disponibilizadas ao utilizador.](diagrama_caso_uso.png)
-
->>>>>>> aff73c278f68ea62964dd7918206e60c09201926
-
-**Cuidado concomitante:**
-
-Os participantes mantêm o seu cuidado médico habitual, incluindo
-consultas de rotina com o seu médico assistente e qualquer medicação
-crónica não psicotrópica previamente estabelecida.
 
 ![**Figura 4**: Diagrama de atividade que descreve o percurso do utilizador na app MindMove.](atividade_app.png)
 
-
 #### 2.3.2 Grupo Controlo
-
-Os participantes deste grupo não terão acesso à aplicação durante as 8
-semanas do estudo. Receberão, no momento da inclusão, um documento em
-formato PDF via e-mail contendo brochuras informativas sobre higiene do
-sono, importância da atividade física na saúde mental e uma lista de
-recursos de emergência e linhas de apoio psicológico disponíveis em
-Portugal.
-
-**Tipo de controlo:** Lista de espera com material educativo estático.
-
-**Justificação do comparador:**
-
-Este comparador representa o *standard of care* atual em cuidados
-primários, onde o tempo de espera para intervenções psicológicas
-especializadas é elevado, sendo o material educativo a única ferramenta
-de suporte imediato disponível em muitos contextos. O design de lista de
-espera garante que, por razões éticas, todos os participantes tenham
-acesso à tecnologia benéfica após o período de avaliação principal.
+Lista de espera com material educativo estático (PDF).
 
 #### 2.3.3 Critérios de Descontinuação
+Retirada voluntária, agravamento clínico severo ou violação grave do protocolo.
 
-Participantes serão retirados do estudo se:
+![**Figura 5**: Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico.](atividade_participante.png)
 
-1.  Retirarem voluntariamente o seu consentimento em qualquer fase do
-    processo.
-
-2.  Desenvolverem agravamento clínico severo, nomeadamente se surgir
-    intenção suicida ou necessidade de internamento psiquiátrico
-    imediato.
-
-3.  Ocorrer uma violação grave do protocolo, como a partilha das
-    credenciais de acesso à aplicação com terceiros ou início de nova
-    terapia psicofarmacológica durante o estudo.
-
-<<<<<<< HEAD
-=======
-![**Figura 5**: Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico, desde o recrutamento e avaliação de elegibilidade até à randomização, follow-up e análise final.](atividade_participante.png)
-
->>>>>>> aff73c278f68ea62964dd7918206e60c09201926
 ---
 
 ## 3. Avaliações e Outcomes
