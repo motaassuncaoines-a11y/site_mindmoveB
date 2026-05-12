@@ -23,6 +23,7 @@ Utilize a barra de navegação no topo para explorar os diferentes componentes d
 * 📱 **[Materiais](materiais.qmd):** Acesso interativo ao protótipo de alta fidelidade da aplicação MindMove desenvolvido no Figma.
 * 📊 **[Resultados](resultados.qmd):** Análise estatística reprodutível dos dados basais e do *outcome* primário, gerada dinamicamente através do R e `gtsummary`.
 * 👥 **[Equipa](equipa.qmd):** A equipa de investigação responsável pelo desenvolvimento deste protocolo.
+* 🤖 **[Declaração de IA](IA.qmd):** Documentação transparente da utilização de Inteligência Artificial no projeto, detalhando os prompts, níveis de assistência e a validação crítica do grupo.
 
 ---
 *“Pequenos passos, grandes mudanças.”*
