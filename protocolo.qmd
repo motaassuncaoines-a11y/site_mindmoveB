@@ -43,9 +43,9 @@ MindMove: Eficácia dCBT em Estudantes Universitários
 
 **Tipo de estudo:** Ensaio clínico randomizado, controlado, paralelo
 
-**Data de início prevista:** 06/03/26
+**Data de início prevista:** 02/03/26
 
-**Data de conclusão prevista:** 18/04/26
+**Data de conclusão prevista:** 30/05/26
 
 ------------------------------------------------------------------------
 
@@ -156,7 +156,7 @@ Tabela 1: Cronograma do ensaio clínico MindMove
 |:---|:--:|:--:|
 | **Recrutamento** | 4 semanas | Divulgação nas faculdades, triagem de elegebilidade e assinatura do consentimento informado |
 | **Baseline** | 1 semana | Avaliação inicial (Questionários GAD-7, PSQI) e randomização |
-| **Intervenção** | 8 semanas | Exercício aeróbico supervisionado (Grupo E) vs. Controlo sedentário (Grupo C) |
+| **Intervenção** | 8 semanas | Intervenção dCBT MindMove (Grupo Intervenção) vs. Lista de espera com material educativo (Grupo Controlo) |
 | **Follow-up** | 8 semanas | Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia |
 
 O diagrama CONSORT será utilizado como ferramenta de reporte deste
@@ -166,7 +166,7 @@ clínico (Figura 1).
 ![](consort.png)
 
 Figura 1: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de
-recrut)amento, elegibilidade, randomização, follow-up e análise dos
+recrutamento, elegibilidade, randomização, follow-up e análise dos
 participantes ao longo do estudo.
 
 ### 2.2 População do Estudo
@@ -282,7 +282,7 @@ Funcionalidades principais:
 - A frequência de uso esperada é de uma utilização diária,
   preferencialmente ao final do dia.
 
-![](sequencia.png)
+![](atividade_participante.png)
 
   Figura 2: Diagrama de atividade que representa o percurso do
   participante ao longo do ensaio clínico, desde o recrutamento e
@@ -312,11 +312,11 @@ O suporte será garantido através de um canal de chat dentro da própria
 aplicação e um endereço de e-mail dedicado à equipa de investigação, com
 tempo de resposta garantido de 24 horas úteis.
 
-![](diagrama_caso_uso.png)
+![](sequencia.png)
 
 Figura 3: Diagrama de sequência com o processo de registo de humor na
-apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
-seu ar mazenamento e processamento
+aplicação MindMove, desde a introdução dos dados pelo utilizador até ao
+seu armazenamento e processamento
 
 **Cuidado concomitante:**
 
@@ -363,9 +363,6 @@ Participantes serão retirados do estudo se:
 3.  Ocorrer uma violação grave do protocolo, como a partilha das
     credenciais de acesso à aplicação com terceiros ou início de nova
     terapia psicofarmacológica durante o estudo.
-
-![](atividade_participante.png)
-**Figura 5:** Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico, desde o recrutamento e avaliação de elegibilidade até à randomização, follow-up e análise final.
 
 ---
 
@@ -459,14 +456,10 @@ conferências científicas da especialidade. Após a conclusão e análise
 dos dados, será enviado um resumo em linguagem acessível a todos os
 participantes do estudo, e a intervenção *MindMove* será disponibilizada
 gratuitamente aos estudantes que integraram o grupo de controlo.
+
 ## 6. Referências Bibliográficas
 
-### 6.1 Prompt usado na IA
-Para a elaboração e estruturação deste protocolo segundo a norma SPIRIT, utilizou-se o assistente de IA Gemini (Google). A interação seguiu as diretrizes de transparência sugeridas, utilizando os seguintes comandos:
-
-> **Gemini:** Estou a escrever o racional de um protocolo SPIRIT para um ensaio clínico randomizado. Cenário: App MindMove com as seguintes funcionalidades: Módulos de dCBT (digital Cognitive Behavioral Therapy), Exercícios de ativação comportamental, Diário de humor (mood tracking), Lembretes para atividade física, Técnicas de mindfulness guiadas, Monitorização de padrões de sono, Sugestões personalizadas baseadas em humor. Comparador: Lista de espera + material educativo estático: Acesso a brochuras sobre saúde mental, Lista de recursos disponíveis, SEM intervenção activa durante estudo, Oferta de acesso à app após conclusão do estudo. Outcome primário: PHQ-9 score às 8 semanas. Secundários: GAD-7 (ansiedade), Nível de atividade física (minutos/semana), Qualidade do sono (PSQI - Pittsburgh Sleep Quality Index), Satisfação com intervenção, Engagement com app (tempo de uso, módulos completados), Taxa de dropout. Escreve (...) Usar linguagem científica formal. Não usar marcadores de lista — texto corrido.
-
-### 6.2 Referências
+### 6.1 Referências
 1. Ibrahim, A.K., et al., A systematic review of studies of depression prevalence in university students. *J Psychiatr Res*, 2013. **47**(3): p. 391–400.
 2. Gulliver, A., K.M. Griffiths, and H. Christensen, Perceived barriers and facilitators to mental health help-seeking in young people: a systematic review. *BMC Psychiatry*, 2010. **10**: p. 113.
 3. Karyotaki, E., et al., Internet-Based Cognitive Behavioral Therapy for Depression: A Systematic Review and Individual Patient Data Network Meta-analysis. *JAMA Psychiatry*, 2021. **78**(4): p. 361–371.
