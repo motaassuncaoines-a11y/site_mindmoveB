@@ -1,0 +1,155 @@
+---
+title: "Declaração de Uso de IA"
+---
+
+## E1 —  Protocolo SPIRIT
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 3 (AI-Assisted Drafting) — *Como o prompt foi utilizado para a E1, ainda era permitida a utilização deste nível.*
+
+**Prompt:**
+
+> "Estou a escrever o racional de um protocolo SPIRIT para um ensaio clínico randomizado. Cenário: App MindMove com as seguintes funcionalidades: Módulos de dCBT (digital Cognitive Behavioral Therapy), Exercícios de ativação comportamental, Diário de humor (mood tracking), Lembretes para atividade física, Técnicas de mindfulness guiadas, Monitorização de padrões de sono, Sugestões personalizadas baseadas em humor. Comparador: Lista de espera + material educativo estático: Acesso a brochuras sobre saúde mental, Lista de recursos disponíveis, SEM intervenção activa durante estudo, Oferta de acesso à app após conclusão do estudo. Outcome primário: PHQ-9 score às 8 semanas. Secundários: GAD-7 (ansiedade), Nível de atividade física (minutos/semana), Qualidade do sono (PSQI - Pittsburgh Sleep Quality Index), Satisfação com intervenção, Engagement com app (tempo de uso, módulos completados), Taxa de dropout. Escreve (…) Usar linguagem científica formal. Não usar marcadores de lista — texto corrido."
+
+**Resposta resumida da IA:** A IA gerou um rascunho em texto corrido com o racional científico do protocolo, articulando a justificação da intervenção (App MindMove e as suas funcionalidades digitais) em contraste com o comparador (lista de espera), e contextualizando os endpoints clínicos (PHQ-9, GAD-7, PSQI) de forma coesa e com linguagem médica formal, tal como solicitado.
+
+**Tratamento do output:** O rascunho inicial gerado pela ferramenta serviu exclusivamente como base estrutural e ponto de partida. O grupo analisou criticamente o conteúdo, reescreveu passagens para garantir o rigor exigido pela norma SPIRIT, e encurtou o texto para respeitar os limites do projeto. Crucialmente, cruzámos e complementámos este rascunho com referências bibliográficas reais pesquisadas e validadas autonomamente pelo grupo, assegurando a validade científica do racional final.
+
+---
+
+## E2 — Dicionário de Dados REDCap
+
+### Prompt 1
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Age como um Arquiteto de Dados especialista em REDCap. Sou o Membro 1 de um trabalho académico e preciso de criar o Dicionário de Dados inicial para o estudo clínico 'MindMove' (Depressão em universitários). A tua tarefa é gerar a tabela completa, em formato CSV (separado por vírgulas), com todas as variáveis que me competem, prontas a copiar e colar para o meu ficheiro. Regras de formatação obrigatórias: A primeira linha tem de conter EXATAMENTE estes 18 cabeçalhos: Variable / Field Name, Form Name, Section Header, Field Type, Field Label, Choices, Calculations, OR Slider Labels, Field Note, Text Validation Type OR Show Slider Number, Text Validation Min, Text Validation Max, Identifier?, Branching Logic (Show field only if...), Required Field?, Custom Alignment, Question Number (surveys only), Matrix Group Name, Matriz Ranking?, Field Annotation. A explicação de cada uma das variáveis está em anexo. Tem em consideração o exemplo de CSV que segue em anexo, e cria um dicionário de dados com a mesma formatação."
+
+**Resposta da IA:** A IA gerou o Dicionário de Dados em formato CSV com os 18 cabeçalhos exigidos, incluindo os formulários de consentimento, dados sociodemográficos e critérios de seleção. Implementou validação de datas para garantir que os participantes tinham entre 18 e 30 anos, marcou os campos de consentimento como identificadores obrigatórios, e incluiu a variável de randomização no final dos critérios de seleção.
+
+**Tratamento do output:** Perante a resposta a este prompt, validámos o conteúdo, garantindo que fazia sentido, e só depois implementámos no Excel.
+
+---
+
+### Prompt 2 
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompts:**
+
+> "Estou a fazer um trabalho de FP, e o meu objetivo é passar o Dicionário de Dados para a plataforma REDCap e afinar a interface do estudo clínico 'MindMove'. Preciso da tua ajuda para resolver três problemas na plataforma."
+
+> "Tentei fazer upload do ficheiro CSV e apareceram estes erros (...) O que está a causar esta desconfiguração e como a resolvo definitivamente?"
+
+> "Como configuro a plataforma e os formulários para funcionarem como inquéritos (Surveys)?"
+
+> "Como aplico o branching corretamente para mostrar perguntas apenas quando uma determinada opção é selecionada? Tentei escrever a fórmula manualmente, mas estou a obter erros de sintaxe."
+
+**Resposta da IA:** A IA esclareceu que erros de desconfiguração no upload de ficheiros CSV no REDCap derivam frequentemente de delimitadores incorretos (vírgula vs. ponto e vírgula) ou falta de aspas em campos com texto. Para a configuração de Surveys, indicou os passos para ativar a funcionalidade no "Project Setup" e habilitar os formulários no "Online Designer". Quanto ao branching, explicou a sintaxe correta utilizando parênteses retos para variáveis — [nome_da_variavel] = 'valor' — e sugeriu a utilização do "Logic Builder" visual para mitigar erros de escrita manual.
+
+**Tratamento do output:** Analisámos as alterações sugeridas. Compreendemos que o erro de upload derivava de problemas de sintaxe e organização do Dicionário de Dados no ficheiro CSV, o qual foi corrigido. Quanto à parametrização, seguimos as instruções para ativar os Inquéritos no "Project Setup" e aplicámos o branching através da ferramenta visual "Drag-N-Drop Logic Builder" para evitar erros manuais de sintaxe. Validámos todas as alterações no Online Designer, garantindo que o eCRF ficou totalmente funcional.
+
+---
+
+### Prompt 3 — Estrutura do relatório de reflexão crítica (E7)
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Ajuda-me a estruturar o documento de reflexão crítica (relatório curto) do Trabalho E7. Preciso de organizar a informação para as alíneas a) estrutura do eCRF, b) decisões de implementação (campos obrigatórios e cálculos), c) dificuldades encontradas na exportação, d) limitações, e e) declaração do uso de IA, integrando as evidências dos meus testes."
+
+**Resposta da IA:** A IA forneceu um esqueleto organizativo com sugestões de conteúdo para cada alínea: descrição da arquitetura modular dos formulários, parametrizações técnicas (campos obrigatórios, cálculo de IMC, branching logic), dificuldades na exportação, limitações do eCRF e modelo de declaração de uso de IA.
+
+**Tratamento do output:** Aceite com alterações substanciais. A IA forneceu um esqueleto organizativo e propostas de parágrafos, que o grupo adaptou posteriormente ao trabalho.
+
+---
+
+### Prompt 4 — Alterações avançadas ao CSV
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Para o meu trabalho de grupo, onde tenho o papel de Arquiteto de Dados e Lógica, preciso que pegues no ficheiro CSV inicial do nosso Dicionário de Dados REDCap e apliques alterações avançadas. Primeiro, corrige as variáveis de exclusão 'depressao_major' e 'medicacao_atual', movendo o texto indicativo 'Se Sim, excluir' da coluna de 'Choices' para a coluna 'Field Note' para evitar erros de importação na plataforma. De seguida, cria o formulário 'dados_clinicos' e adiciona variáveis de peso, altura, sintomas secundários (checkbox) e uma escala de dor de 0 a 10 (radio). Preciso também que cries um campo calculado (calc) para o IMC com a sintaxe correta. Finalmente, adiciona uma pergunta 'toma_outra_medicacao' e aplica lógica de ramificação (branching logic) para que a pergunta 'qual_medicacao' apenas apareça se a resposta anterior for afirmativa. Devolve o código em CSV mantendo os delimitadores (;) e colunas vazias."
+
+**Resposta da IA:** A IA gerou o CSV atualizado com o formulário `dados_clinicos`, incluindo campos de peso e altura com validação numérica, cálculo automático do IMC com a fórmula `[peso]/(([altura]/100)*([altura]/100))`, checkbox de sintomas secundários, e branching logic `[toma_outra_medicacao] = '1'` para o campo `qual_medicacao`.
+
+**Tratamento do output:** Validámos primeiramente a integridade estrutural do código (delimitadores e colunas vazias). Analisámos manualmente as fórmulas matemáticas para o IMC e a conversão de unidades (cm para metros na equação), bem como a sintaxe lógica de ramificação. Após confirmar que as variáveis cumpriam as restrições informáticas (sem espaços ou caracteres especiais) e que a lógica condicional estava correta, o código foi incorporado no ficheiro CSV principal do grupo para exportação.
+
+---
+
+## E3 — Análise de Dados e Apresentação
+
+### Prompt 1 — Análise estatística em R
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Estou a analisar os dados de um ensaio clínico (30 estudantes, grupo intervenção e controlo) no R. Quais são os melhores pacotes e funções para criar uma tabela de características basais com p-values automáticos e para desenhar um boxplot comparativo? Podes explicar-me a lógica geral dessas funções sem escrever o código específico para o meu projeto?"
+
+**Resposta resumida da IA:** A IA explicou que o pacote `gtsummary` utiliza a função `tbl_summary()` para criar tabelas descritivas e a função `add_p()` para calcular os p-values estatísticos automaticamente com base no tipo de dados. Para o gráfico, sugeriu o pacote `ggplot2`, explicando que a função base `ggplot()` mapeia os dados nos eixos estéticos (ex: x para os grupos e y para a variável clínica), enquanto a camada `geom_boxplot()` constrói a visualização estatística da distribuição.
+
+**Tratamento do output:** O grupo utilizou esta explicação apenas para compreender a lógica e a arquitetura dos pacotes sugeridos. Posteriormente, redigimos todo o código R, importando o nosso dataset, definindo as variáveis corretas da nossa base de dados (`grupo`, `phq9`, `gad7`) e formatando os gráficos e tabelas de acordo com as necessidades do protocolo MindMove.
+
+---
+
+### Prompt 2 — Design do logótipo MindMove
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Estou a desenhar o logótipo para uma aplicação de saúde mental e atividade física chamada 'MindMove'. Podes dar-me ideias conceptuais para o ícone, elementos gráficos e paletas de cores que transmitam clareza mental, progresso e modernidade, mantendo um estilo minimalista focado em UI/UX?"
+
+**Resposta resumida da IA:** A IA sugeriu várias direções criativas, destacando a ideia de combinar a forma de um cérebro (representando a saúde mental) com linhas de movimento subtis ou uma seta (representando a atividade física e o avanço). Para a paleta de cores, recomendou o uso de um roxo vibrante contrastado com branco, para transmitir simultaneamente confiança clínica, calma e inovação tecnológica.
+
+**Tratamento do output:** O grupo adotou estas sugestões conceptuais como inspiração. Utilizando a metáfora visual recomendada (cérebro + movimento) e a paleta de cores sugerida (roxo e branco), fomos para a plataforma Canva e construímos o logótipo manualmente, conjugando ícones vetoriais planos, desenhando as linhas de movimento e ajustando a tipografia.
+
+---
+
+### Prompt 3 — Construção do website em Quarto
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Estou a construir um website para apresentar um protocolo clínico com as seguintes páginas: Início, Protocolo, Materiais, Resultados e Equipa. Ajuda-me a estruturar a linguagem de formatação para criar listas alinhadas, aplicar negritos e inserir corretamente imagens locais sem que o código quebre. Explica-me também como corrigir erros de sintaxe no cabeçalho YAML."
+
+**Resposta resumida da IA:** A IA forneceu instruções teóricas sobre a sintaxe base da linguagem Markdown, indicando o uso de asteriscos (`*`) para criar listas e enfatizar texto, a estrutura `![]()` para a inserção de imagens locais, e os princípios básicos de indentação para evitar quebras no cabeçalho YAML.
+
+**Tratamento do output:** As instruções fornecidas pela IA foram úteis como guia de formatação para estruturar o site. No entanto, o output apresentava limitações práticas. Ao tentarmos implementar as listas sugeridas na nossa página da Equipa, o RStudio não as reconheceu, transformando-as em texto corrido. Através de pesquisa autónoma e resolução de problemas, percebemos uma regra estrita do Markdown omitida pela IA: a obrigatoriedade de existir uma linha em branco entre o parágrafo anterior e o início da lista. O grupo corrigiu a formatação e o espaçamento manualmente, garantindo a renderização correta de todo o código no Quarto.
+
+---
+
+### Prompt 4 — Estrutura da apresentação final
+
+**Ferramenta utilizada:** Gemini
+
+**Nível máximo de utilização:** Nível 2 (Conceptual Architect)
+
+**Prompt:**
+
+> "Vou fazer a apresentação final do nosso ensaio clínico e a demonstração do protótipo (MindMove) para uma audiência de investigadores, com a duração de 10 a 15 minutos. Quais são as melhores práticas e que estrutura conceitual de guião me recomendas seguir para gerir o tempo e fazer uma ponte fluida entre o problema clínico, a demonstração da app ao vivo e a apresentação dos resultados estatísticos?"
+
+**Resposta resumida da IA:** A IA sugeriu um esqueleto conceitual para a apresentação, recomendando uma divisão por blocos de tempo (2–3 minutos para o contexto clínico, 4–5 minutos para a demonstração prática, e 3 minutos para os resultados). Aconselhou também o uso de técnicas de storytelling na abertura para criar empatia, e sugeriu que o momento da demonstração focasse na justificação das escolhas de usabilidade (prevenção de erros e reforço positivo) em vez de apenas descrever o ecrã.
+
+**Tratamento do output:** O grupo utilizou esta recomendação estrutural como um "mapa mental" para organizar a narrativa da apresentação.
