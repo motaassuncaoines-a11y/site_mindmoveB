@@ -364,7 +364,7 @@ Participantes serão retirados do estudo se:
     credenciais de acesso à aplicação com terceiros ou início de nova
     terapia psicofarmacológica durante o estudo.
 
-![](atividade_ participante.png)
+![](atividade_participante.png)
 **Figura 5:** Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico, desde o recrutamento e avaliação de elegibilidade até à randomização, follow-up e análise final.
 
 ---
