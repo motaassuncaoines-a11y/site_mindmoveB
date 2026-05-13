@@ -138,8 +138,6 @@ Lista de espera com material educativo estático (PDF).
 #### 2.3.3 Critérios de Descontinuação
 Retirada voluntária, agravamento clínico severo ou violação grave do protocolo.
 
-![**Figura 5**: Diagrama de atividade que representa o percurso do participante ao longo do ensaio clínico.](atividade_participante.png)
-
 ---
 
 ## 3. Avaliações e Outcomes
