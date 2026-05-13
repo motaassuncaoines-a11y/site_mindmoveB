@@ -58,8 +58,7 @@ title: "Declaração de Uso de IA"
 
 ---
 
-### Prompt 3 — Estrutura do relatório de reflexão crítica (E7)
-
+### Prompt 3 
 **Ferramenta utilizada:** Gemini
 
 **Nível máximo de utilização:** Nível 2 (Conceptual Architect)
@@ -92,7 +91,7 @@ title: "Declaração de Uso de IA"
 
 ## E3 — Análise de Dados e Apresentação
 
-### Prompt 1 — Análise estatística em R
+### Prompt 1 
 
 **Ferramenta utilizada:** Gemini
 
@@ -108,7 +107,7 @@ title: "Declaração de Uso de IA"
 
 ---
 
-### Prompt 2 — Design do logótipo MindMove
+### Prompt 2 
 
 **Ferramenta utilizada:** Gemini
 
@@ -124,7 +123,7 @@ title: "Declaração de Uso de IA"
 
 ---
 
-### Prompt 3 — Construção do website em Quarto
+### Prompt 3 
 
 **Ferramenta utilizada:** Gemini
 
@@ -140,7 +139,7 @@ title: "Declaração de Uso de IA"
 
 ---
 
-### Prompt 4 — Estrutura da apresentação final
+### Prompt 4 
 
 **Ferramenta utilizada:** Gemini
 
