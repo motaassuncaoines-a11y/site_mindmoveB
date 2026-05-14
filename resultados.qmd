@@ -81,3 +81,6 @@ A análise da Tabela 1 demonstra que o processo de randomização foi bem-sucedi
 
 **Outcome Primário:**
 A análise preliminar do outcome primário às 8 semanas, ilustrada no *boxplot*, sugere uma tendência clinicamente favorável para o grupo de intervenção. Observa-se que a mediana da pontuação de depressão (escala PHQ-9) é visivelmente inferior no grupo que utilizou a aplicação *MindMove* em comparação com o grupo de controlo em lista de espera. Estes dados preliminares apontam para a potencial eficácia da intervenção dCBT na redução da sintomatologia depressiva ligeira a moderada na nossa amostra.
+
+**Outcomes Secundários**
+Além da melhoria na sintomatologia depressiva, os dados preliminares relativos aos outcomes secundários revelam benefícios consistentes em áreas críticas do bem-estar dos estudantes. Observou-se uma redução nos níveis de ansiedade (medidos pela escala GAD-7) e uma melhoria na qualidade do sono (PSQI), sugerindo que a intervenção dCBT da MindMove promove uma recuperação integrada. Estes resultados são particularmente relevantes, uma vez que a literatura demonstra uma forte correlação entre a privação de sono e o agravamento do estado de humor nesta população. Adicionalmente, o aumento registado nos minutos de atividade física semanal reforça a eficácia dos módulos de ativação comportamental da aplicação.
